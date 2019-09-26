@@ -1,8 +1,8 @@
 
 ¿QUE SON LOS PARADIGMAS DE PROGRAMACION?
 El termino paradigma tuvo sus orígenes en Grecia su significado es: modelo, ejemplo o patrón.
- Un paradigma de programación es un estilo de desarrollo de programas, es decir, un modelo
- para resolver problemas computacionales, los paradigmas fundaméntales están asociados a 
+Un paradigma de programación es un estilo de desarrollo de programas, es decir, un modelo
+para resolver problemas computacionales, los paradigmas fundaméntales están asociados a 
 determinados modelos de computo.
 Los paradigmas de programación son: 
 •	Programación imperativa 
@@ -15,3 +15,11 @@ Los datos utilizados se almacenan en memoria principal y se referencian utilizan
 Lenguajes que utilizan este paradigma: 
 Pascal, Ada, Cobol, C, Modula-2 y Fortran.   
 
+PROGRAMACION FUNCIONAL
+El paradigma funcional está basado en el modelo matemático de composición funcional. En este 
+modelo, el resultado de un cálculo es la entrada del siguiente y así sucesivamente hasta que
+una composición produce el valor deseado.
+La programación funcional incorpora el concepto de función como objeto de primera clase, lo
+que significa que las funciones se pueden tratar como datos, estos datos pueden pasar como 
+parámetros, calculadas y devueltas como valores normales.
+Ejemplo de lenguaje: LISP  
