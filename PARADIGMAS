@@ -1,21 +1,21 @@
 
-¿QUE SON LOS PARADIGMAS DE PROGRAMACION?
-El termino paradigma tuvo sus orígenes en Grecia su significado es: modelo, ejemplo o patrón.
+¿QUE SON LOS PARADIGMAS DE PROGRAMACIÓN?
+El término paradigma tuvo sus orígenes en Grecia su significado es: modelo, ejemplo o patrón.
 Un paradigma de programación es un estilo de desarrollo de programas, es decir, un modelo
-para resolver problemas computacionales, los paradigmas fundaméntales están asociados a 
+para resolver problemas computacionales, los paradigmas fundamentales están asociados a 
 determinados modelos de computo.
 Los paradigmas de programación son: 
 •	Programación imperativa 
 •	Programación funcional 
 •	Programación lógica
 •	Programación orientada a objetos 
-PROGRAMACION IMPERACTIVA 
+PROGRAMACIÓN IMPERACTIVA 
 En este, programa es una secuencia finita de instrucciones que se ejecutan una tras otra. 
 Los datos utilizados se almacenan en memoria principal y se referencian utilizando variables.
 Lenguajes que utilizan este paradigma: 
 Pascal, Ada, Cobol, C, Modula-2 y Fortran.   
 
-PROGRAMACION FUNCIONAL
+PROGRAMACIÓN FUNCIONAL
 El paradigma funcional está basado en el modelo matemático de composición funcional. En este 
 modelo, el resultado de un cálculo es la entrada del siguiente y así sucesivamente hasta que
 una composición produce el valor deseado.
@@ -23,3 +23,37 @@ La programación funcional incorpora el concepto de función como objeto de primer
 que significa que las funciones se pueden tratar como datos, estos datos pueden pasar como 
 parámetros, calculadas y devueltas como valores normales.
 Ejemplo de lenguaje: LISP  
+
+PROGRAMACIÓN LÓGICA
+Paradigma de programación basado en la lógica de primer orden estudia el uso de la lógica 
+para el planteamiento de problemas y el control sobre las reglas de inferencia para alcanzar
+la soulución automática.
+La programación logica, junto con la funcional, forma parte de lo que se conoce como Programación
+Declarativa, es decir la programación Lógica, se trabaja en una forma descriptiva, estableciendo
+relaciones entre entidades, indicando no como, sino que hacer, entonces se dice que la idea esencial
+de la programación logica es: 
+
+PROGRAMA=LÓGICA+CONTROL
+
+Lógica(Programador):Hechosy reglas para representar conocimiento.
+Control(Interprete):Deduccion lógica para dar respuestas(soluciones).
+-La prógramacion lógica construye base de conocimientos mediante reglasy echos.
+
+Ejemplo:
+% Hechos:
+es_español("Manolo").
+es_italiano("Marco").
+es_colombiano("Marcelo").
+ 
+% Reglas:
+es_europeo(A) :- es_español(A).
+es_europeo(A) :- es_italiano(A).
+es_americano(A) :- es_colombiano(A).
+es_terricola(A) :- es_europeo(A).
+es_terricola(A) :- es_americano(A).
+son_del_mismo_continente(A,B) :- es_europeo(A), es_europeo(B).
+son_del_mismo_continente(A,B) :- es_americano(A), es_americano
+
+- son_del_mismo_continente("Manolo", "Marco").
+yes
+
