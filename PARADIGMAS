@@ -5,10 +5,10 @@ Un paradigma de programación es un estilo de desarrollo de programas, es decir, 
 para resolver problemas computacionales, los paradigmas fundamentales están asociados a 
 determinados modelos de computo.
 Los paradigmas de programación son: 
-•	Programación imperativa 
-•	Programación funcional 
-•	Programación lógica
-•	Programación orientada a objetos 
+•Programación imperativa 
+•Programación funcional 
+•Programación lógica
+•Programación orientada a objetos 
 
 PROGRAMACIÓN IMPERACTIVA 
 En este, programa es una secuencia finita de instrucciones que se ejecutan una tras otra. 
@@ -38,7 +38,7 @@ PROGRAMAR = LÓGICA + CONTROL
 
 Lógica(Programador):Hechos y reglas para representar conocimiento.
 Control(Interprete):Deduccion lógica para dar respuestas(soluciones).
--La prógramacion lógica construye base de conocimientos mediante reglasy echos.
+-La programación lógica construye base de conocimientos mediante reglasy echos.
 
 Ejemplo:
 % Hechos:
@@ -62,36 +62,39 @@ PROGRAMACION ORIENTADA A OBJETOS
 Es un paradigma de la programacion de computadores que tiene como objetivo el desarrollo computacional
 basado en una coleccion de objetos que estan interrelacionados y trabajan conjuntamente para resolver 
 un problema.
-Surge dentro de los paradigmas de la programacion como un enfoque diferente al momento de obtener soluciones computacionales.
-Evolucionando a traves de los años cuya primera implementacion fueron dos lenguajes de programacion de simulacion los cuales son:
-Simula 1 y Simula 7 considerados como el primer lenguaje orientado a objetos donde siempre son manejados por medio de referencias 
-el cual entiende dos tipos de objetos:
+Surge dentro de los paradigmas de la programacion como un enfoque diferente al momento de obtener 
+soluciones computacionales.Evolucionando a traves de los años cuya primera implementacion fueron dos 
+lenguajes de programacion de simulacion los cuales son:
+Simula 1 y Simula 7 considerados como el primer lenguaje orientado a objetos donde siempre son manejados 
+por medio de referencias el cual entiende dos tipos de objetos:
 -los activos 
 -los inactivos
-tanto de unos como de otro es posible ejecutar los procedimientos miembro y consultar los atributos en cualquier momento.
+tanto de unos como de otro es posible ejecutar los procedimientos miembro y consultar los atributos en 
+cualquier momento.
 
 VENTAJAS
--Una buena abstraccion de las clases, objetos y atributos nos brinda una implementacion mas detallada,puntual y coherente.
--Reutilizacion de codigo lo cual permite :
-   -rapido desarrollo 
-   -alta calidad del codigo
-   -bajo costo en fases de desarrollo
--Modificalidad
--Encapsulamiento
--Fiablidad
--Bajo acoplamimento y alta cohesion
--Beneficios de diseño
--Mantenimiento de software
--Amplia documentacion
+-Una buena abstracción de las clases, objetos y atributos nos brinda una implementación mas detallada,puntual
+ y coherente.
+-Reutilización de código lo cual permite :
+ -Rápido desarrollo .
+-Alta calidad del código.
+-Bajo costo en fases de desarrollo.
+-Modificalidad.
+-Encapsulamiento.
+-Fiablidad.
+-Bajo acoplamimento y alta cohesion.
+-Beneficios de diseño.
+-Mantenimiento de software.
+-Amplia documentacion.
 
 DESVENTAJAS
--Curva de aprendizaje
--La ejecucion de programas orientados a objetos es mas lenta 
--Tiempo en fase de diseño
--Tamaño del programa
+-Curva de aprendizaje.
+-La ejecución de programas orientados a objetos es mas lenta .
+-Tiempo en fase de diseño.
+-Tamaño del programa.
 
-LENGUAJES DE PROGRAMACION
-Un lenguaje de programacion es orientado a objetos si cumple con las siguientes condiciones:
+LENGUAJES DE PROGRAMACIÓN
+Un lenguaje de programación es orientado a objetos si cumple con las siguientes condiciones:
 Soporta objetos que son abstracciones de datos con una interfaz de operaciones con nombre y un estado local oculto.
 Los objetos tienen un tipo asociado (la clase)
 Los tipos (clases) pueden heredar atributos de los supertipos (superclases):
@@ -100,7 +103,9 @@ ALGUNOS EJEMPLOS:
 -PYTHON          -RUBY   -SMALLTALK      -SCALA
 
 BIBLIOGRAFIA:
+Álvarez.L(2017)Programacion orientada a objetos.Paradigmas de Programacion.Recuperado de
 https://ferestrepoca.github.io/paradigmas-de-programacion/poo/poo_teoria/index.html
-https://s3.amazonaws.com/academia.edu.documents/38609102/introduccion_a_la_programcion_teoria_y_practica.pdf
 
+Estudiantes Universidad Nacional de Colombia.(Programacion Lógica)Recuperado de
+https://ferestrepoca.github.io/paradigmas-de-programacion/proglogica/logica_teoria/lang.html
 
